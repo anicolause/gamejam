@@ -48,7 +48,6 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\playerController.cs" />
      <None Include="Assets\Prefabs\Nuevo documento de texto.txt" />
-     <None Include="Assets\Graphics\Nuevo documento de texto.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>
