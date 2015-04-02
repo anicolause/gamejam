@@ -3,6 +3,7 @@ using System.Collections;
 
 public class playerController : MonoBehaviour {
 	public Animator aPlayer;
+	public GameObject floor;
 
 	public float SPEED = 100f;
 
@@ -17,6 +18,7 @@ public class playerController : MonoBehaviour {
 	public float JUMP_VEL = 10f;
 	private float yJump;
 	private bool bJump;
+	private bool bGrounded;
 	private float initPosJump;
 	private bool bFalling;
 
@@ -26,25 +28,35 @@ public class playerController : MonoBehaviour {
 	//lives
 	private bool bAlive;
 
-	void Start () {
-		aPlayer.Play("player_idle");
-	}
-
 	void OnCollisionEnter(Collision col){
-		if (!bJump && col.transform.tag.Equals ("floor")) {
+		if (col.transform.tag.Equals ("floor")) {
 			bJump = false;
+			bGrounded = true;
 		}
-
+		
 		if (col.transform.tag.Equals ("dead")) {
 			bAlive = false;
 		}
 	}
-
+	
 	void OnCollisionStay(Collision col){
+		bGrounded = true;
+	}
+	
+	void OnCollisionExit (Collision col){
+		if (col.transform.tag.Equals ("floor")) {
+			bJump = true;
+			bGrounded = false;
+		}
+	}
 
+	void Start () {
+		aPlayer.Play("player_idle");
 	}
 
 	void Update() {
+		this.transform.Rotate (0, 0, 0);
+
 		playerMovement ();
 		checkJump();
 		checkHit ();
@@ -92,6 +104,10 @@ public class playerController : MonoBehaviour {
 			initHit ();
 		}
 
+		if (bLeftKey || bRightKey) {
+			bHit = false;
+		}
+
 		if (!bHit && !bJump && !bLeftKey && !bRightKey) {
 			aPlayer.Play ("player_idle");
 		}
@@ -103,18 +119,19 @@ public class playerController : MonoBehaviour {
 		bFalling = false;
 		bJump = true;
 		yJump = 0;
+		bHit = false;
 		initPosJump = this.transform.position.y;
 	}
 
 	void checkJump() {
 		if (bJump) {
 			if (!bFalling && yJump < JUMP_HEIGHT) {
-				yJump+=JUMP_VEL;
-				this.transform.Translate(Vector2.up * yJump * Time.deltaTime);
+				yJump += JUMP_VEL;
+				this.transform.Translate (Vector2.up * yJump * Time.deltaTime);
 			} else {
 				bFalling = true;
-				yJump-=JUMP_VEL;
-				this.transform.Translate(Vector2.up * yJump * Time.deltaTime);
+				yJump -= JUMP_VEL;
+				this.transform.Translate (Vector2.up * yJump * Time.deltaTime);
 
 				if (this.transform.position.y < initPosJump) {
 					this.transform.position = new Vector3 (this.transform.position.x, initPosJump, this.transform.position.z);
