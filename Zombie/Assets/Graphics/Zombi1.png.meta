@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: fb255114d53dfce488452a3a7111e3d9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Zombi1_0
+    21300002: Zombi1_1
+    21300004: Zombi1_2
+    21300006: Zombi1_3
+    21300008: Zombi1_4
+    21300010: Zombi1_5
+    21300012: Zombi1_6
+    21300014: Zombi1_7
+    21300016: Zombi1_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Zombi1_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 203
+        width: 42
+        height: 48
+      alignment: 9
+      pivot: {x: .316444933, y: .101685524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombi1_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 145
+        width: 16
+        height: 106
+      alignment: 9
+      pivot: {x: .634913445, y: .866556108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombi1_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 145
+        width: 16
+        height: 106
+      alignment: 9
+      pivot: {x: .365086555, y: .881102085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombi1_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 119
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombi1_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 17
+        width: 26
+        height: 111
+      alignment: 9
+      pivot: {x: .583023667, y: .933388531}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombi1_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 17
+        width: 26
+        height: 111
+      alignment: 9
+      pivot: {x: .45255807, y: .944501042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombi1_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 95
+        width: 61
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombi1_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 5
+        width: 30
+        height: 10
+      alignment: 9
+      pivot: {x: .16079025, y: .623348057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombi1_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 5
+        width: 30
+        height: 10
+      alignment: 9
+      pivot: {x: .16079025, y: .592510819}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
