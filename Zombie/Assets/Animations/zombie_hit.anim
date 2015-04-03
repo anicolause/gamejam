@@ -1,0 +1,536 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: zombie_hit
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: .665295541, w: .746580124}
+        inSlope: {x: 0, y: 0, z: 1.26631522, w: -1.58941031}
+        outSlope: {x: 0, y: 0, z: 1.26631522, w: -1.58941031}
+        tangentMode: 0
+      - time: .166666672
+        value: {x: 0, y: 0, z: .876348078, w: .481678396}
+        inSlope: {x: 0, y: 0, z: .989143968, w: -1.94042122}
+        outSlope: {x: 0, y: 0, z: .989143968, w: -1.94042122}
+        tangentMode: 0
+      - time: .333333343
+        value: {x: 0, y: 0, z: .995010197, w: .0997730196}
+        inSlope: {x: 0, y: 0, z: .37084043, w: -1.41873097}
+        outSlope: {x: 0, y: 0, z: .37084043, w: -1.41873097}
+        tangentMode: 0
+      - time: .5
+        value: {x: 0, y: 0, z: .999961555, w: .00876804441}
+        inSlope: {x: 0, y: 0, z: -1.92011821, w: 1.70839417}
+        outSlope: {x: 0, y: 0, z: -1.92011821, w: 1.70839417}
+        tangentMode: 0
+      - time: .75
+        value: {x: 0, y: 0, z: .0324754007, w: .999472558}
+        inSlope: {x: 0, y: 0, z: -3.86994457, w: 3.96281815}
+        outSlope: {x: 0, y: 0, z: -3.86994457, w: 3.96281815}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: brazo_dcha
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: .686345279, w: .727275848}
+        inSlope: {x: 0, y: 0, z: 1.22040796, w: -1.62492621}
+        outSlope: {x: 0, y: 0, z: 1.22040796, w: -1.62492621}
+        tangentMode: 0
+      - time: .166666672
+        value: {x: 0, y: 0, z: .889746606, w: .456454813}
+        inSlope: {x: 0, y: 0, z: .93332541, w: -1.96787834}
+        outSlope: {x: 0, y: 0, z: .93332541, w: -1.96787834}
+        tangentMode: 0
+      - time: .333333343
+        value: {x: 0, y: 0, z: .997453749, w: .0713164061}
+        inSlope: {x: 0, y: 0, z: .33017242, w: -1.42874265}
+        outSlope: {x: 0, y: 0, z: .33017242, w: -1.42874265}
+        tangentMode: 0
+      - time: .5
+        value: {x: 0, y: 0, z: .99980408, w: -.0197927393}
+        inSlope: {x: 0, y: 0, z: -1.87054622, w: 1.76253283}
+        outSlope: {x: 0, y: 0, z: -1.87054622, w: 1.76253283}
+        tangentMode: 0
+      - time: .75
+        value: {x: 0, y: 0, z: .0610054769, w: .998137414}
+        inSlope: {x: 0, y: 0, z: -3.75519443, w: 4.0717206}
+        outSlope: {x: 0, y: 0, z: -3.75519443, w: 4.0717206}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: brazo_izqd
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 2519808241
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2630231364
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: .75
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .746580124
+        inSlope: -1.58941031
+        outSlope: -1.58941031
+        tangentMode: 0
+      - time: .166666672
+        value: .481678396
+        inSlope: -1.94042122
+        outSlope: -1.94042122
+        tangentMode: 0
+      - time: .333333343
+        value: .0997730196
+        inSlope: -1.41873097
+        outSlope: -1.41873097
+        tangentMode: 0
+      - time: .5
+        value: .00876804441
+        inSlope: 1.70839417
+        outSlope: 1.70839417
+        tangentMode: 0
+      - time: .75
+        value: .999472558
+        inSlope: 3.96281815
+        outSlope: 3.96281815
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: brazo_dcha
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .665295541
+        inSlope: 1.26631522
+        outSlope: 1.26631522
+        tangentMode: 0
+      - time: .166666672
+        value: .876348078
+        inSlope: .989143968
+        outSlope: .989143968
+        tangentMode: 0
+      - time: .333333343
+        value: .995010197
+        inSlope: .37084043
+        outSlope: .37084043
+        tangentMode: 0
+      - time: .5
+        value: .999961555
+        inSlope: -1.92011821
+        outSlope: -1.92011821
+        tangentMode: 0
+      - time: .75
+        value: .0324754007
+        inSlope: -3.86994457
+        outSlope: -3.86994457
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: brazo_dcha
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .166666672
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .333333343
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: brazo_dcha
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .166666672
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .333333343
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: brazo_dcha
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .166666672
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .333333343
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: brazo_izqd
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .166666672
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .333333343
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: brazo_izqd
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .686345279
+        inSlope: 1.22040796
+        outSlope: 1.22040796
+        tangentMode: 0
+      - time: .166666672
+        value: .889746606
+        inSlope: .93332541
+        outSlope: .93332541
+        tangentMode: 0
+      - time: .333333343
+        value: .997453749
+        inSlope: .33017242
+        outSlope: .33017242
+        tangentMode: 0
+      - time: .5
+        value: .99980408
+        inSlope: -1.87054622
+        outSlope: -1.87054622
+        tangentMode: 0
+      - time: .75
+        value: .0610054769
+        inSlope: -3.75519443
+        outSlope: -3.75519443
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: brazo_izqd
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .727275848
+        inSlope: -1.62492621
+        outSlope: -1.62492621
+        tangentMode: 0
+      - time: .166666672
+        value: .456454813
+        inSlope: -1.96787834
+        outSlope: -1.96787834
+        tangentMode: 0
+      - time: .333333343
+        value: .0713164061
+        inSlope: -1.42874265
+        outSlope: -1.42874265
+        tangentMode: 0
+      - time: .5
+        value: -.0197927393
+        inSlope: 1.76253283
+        outSlope: 1.76253283
+        tangentMode: 0
+      - time: .75
+        value: .998137414
+        inSlope: 4.0717206
+        outSlope: 4.0717206
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: brazo_izqd
+    classID: 224
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .583333313
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.x
+    path: brazo_dcha
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .583333313
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.y
+    path: brazo_dcha
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 83.4100037
+        inSlope: 126.927513
+        outSlope: 126.927513
+        tangentMode: 10
+      - time: .583333313
+        value: 157.45105
+        inSlope: -397.723175
+        outSlope: -397.723175
+        tangentMode: 10
+      - time: .75
+        value: 3.72206116
+        inSlope: -922.37384
+        outSlope: -922.37384
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.z
+    path: brazo_dcha
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .583333313
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.x
+    path: brazo_izqd
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .583333313
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .75
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.y
+    path: brazo_izqd
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 86.6829987
+        inSlope: 126.927513
+        outSlope: 126.927513
+        tangentMode: 10
+      - time: .583333313
+        value: 160.724045
+        inSlope: -397.723175
+        outSlope: -397.723175
+        tangentMode: 10
+      - time: .75
+        value: 6.99505615
+        inSlope: -922.37384
+        outSlope: -922.37384
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.z
+    path: brazo_izqd
+    classID: 224
+    script: {fileID: 0}
+  m_Events: []
