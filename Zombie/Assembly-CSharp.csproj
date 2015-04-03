@@ -46,7 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\animatorState.cs" />
+     <Compile Include="Assets\Scripts\new_playerController.cs" />
      <Compile Include="Assets\Scripts\playerController.cs" />
+     <Compile Include="Assets\Scripts\zombieController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -29,8 +29,10 @@ public class playerController : MonoBehaviour {
 	private bool bAlive;
 
 	void OnCollisionEnter(Collision col){
+		Debug.Log ("1");
 		if (col.transform.tag.Equals ("floor")) {
 			bJump = false;
+			Debug.Log ("bG 1");
 			bGrounded = true;
 		}
 		
@@ -40,11 +42,13 @@ public class playerController : MonoBehaviour {
 	}
 	
 	void OnCollisionStay(Collision col){
-		bGrounded = true;
+
 	}
 	
 	void OnCollisionExit (Collision col){
+		Debug.Log ("1");
 		if (col.transform.tag.Equals ("floor")) {
+			Debug.Log ("bG 0");
 			bJump = true;
 			bGrounded = false;
 		}

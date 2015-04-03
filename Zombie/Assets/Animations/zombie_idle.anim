@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: player_idle
+  m_Name: zombie_idle
   serializedVersion: 4
   m_AnimationType: 2
   m_Compressed: 0
@@ -17,20 +17,20 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: -.131999999, z: 0}
-        outSlope: {x: 0, y: -.131999999, z: 0}
-        tangentMode: 110283264
+        value: {x: 0, y: -.0399999991, z: 0}
+        inSlope: {x: 0, y: -.159999996, z: 0}
+        outSlope: {x: 0, y: -.159999996, z: 0}
+        tangentMode: 48
       - time: .25
-        value: {x: 0, y: -.0329999998, z: 0}
+        value: {x: 0, y: -.0799999982, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 106561572
+        tangentMode: 3
       - time: .5
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: .131999999, z: 0}
-        outSlope: {x: 0, y: .131999999, z: 0}
-        tangentMode: 39
+        value: {x: 0, y: -.0399999991, z: 0}
+        inSlope: {x: 0, y: .159999996, z: 0}
+        outSlope: {x: 0, y: .159999996, z: 0}
+        tangentMode: 17
       m_PreInfinity: 2
       m_PostInfinity: 2
     path: Cabeza
@@ -97,19 +97,19 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 0
-        inSlope: -.131999999
-        outSlope: -.131999999
+        value: -.0399999991
+        inSlope: -.159999996
+        outSlope: -.159999996
         tangentMode: 10
       - time: .25
-        value: -.0329999998
+        value: -.0799999982
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       - time: .5
-        value: 0
-        inSlope: .131999999
-        outSlope: .131999999
+        value: -.0399999991
+        inSlope: .159999996
+        outSlope: .159999996
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
